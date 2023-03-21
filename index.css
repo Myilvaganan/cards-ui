@@ -16,15 +16,15 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
   #container{
     width: 50%;
     margin: 2rem;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-layout{
     background-color: white;
     padding: 2rem;
-  }
-
-  #cardOne{
     width: 50%;
+    margin: 2rem;
   }
 
   h1{
@@ -47,4 +47,18 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
     color: grey
   }
 
+  .display-flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+
   
+  .display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon{
+    font-size: xx-large;
+  }
