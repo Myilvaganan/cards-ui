@@ -1,0 +1,50 @@
+
+ body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(195, 223, 153);
+font-family: Verdana, Geneva, Tahoma, sans-serif
+ } 
+ 
+ #app{
+    height: 100%;
+    width: 100%;
+
+  }
+  
+  #container{
+    width: 50%;
+    margin: 2rem;
+  }
+  
+  .card-layout{
+    background-color: white;
+    padding: 2rem;
+  }
+
+  #cardOne{
+    width: 50%;
+  }
+
+  h1{
+    text-transform: uppercase;
+    font-size: x-large;
+  }
+
+ .inner-block{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(3, 184, 3);
+  }
+
+  .green-text{
+    color: rgb(3, 184, 3);
+    font-weight: 800;
+  }
+
+  .grey-text{
+    color: grey
+  }
+
+  
